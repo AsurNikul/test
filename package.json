@@ -1,0 +1,58 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest",
+    "bundle-android": "react-native bundle --entry-file index.js  --platform android --dev false --bundle-output ./android/app/src/main/assets/index.android.bundle --assets-dest ./android/app/src/main/res",
+    "build": "cd android && ./gradlew assembleRelease",
+    "clean": "cd android && ./gradlew clean && cd ../",
+    "sha1": "cd android && ./gradlew signingReport",
+    "pod": "cd ios && pod install && cd ../",
+    "ios": "npx react-native run-ios --simulator 'iPhone 14'"
+
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.19.3",
+    "@react-navigation/native": "^6.1.7",
+    "@react-navigation/stack": "^6.3.17",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@shopify/flash-list": "^1.6.1",
+    "@tanstack/react-query": "^4.35.3",
+    "axios": "^1.5.0",
+    "react": "18.2.0",
+    "react-native": "0.72.4",
+    "react-native-gesture-handler": "^2.12.1",
+    "react-native-pager-view": "^6.2.1",
+    "react-native-screens": "^3.25.0",
+    "react-native-size-matters": "^0.4.0",
+    "react-native-tab-view": "^3.5.2",
+    "react-native-vector-icons": "^10.0.0",
+    "react-redux": "^8.1.2",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native/eslint-config": "^0.72.2",
+    "@react-native/metro-config": "^0.72.11",
+    "@tsconfig/react-native": "^3.0.0",
+    "@types/react": "^18.0.24",
+    "@types/react-test-renderer": "^18.0.0",
+    "babel-jest": "^29.2.1",
+    "eslint": "^8.19.0",
+    "jest": "^29.2.1",
+    "metro-react-native-babel-preset": "0.76.8",
+    "prettier": "^2.4.1",
+    "react-test-renderer": "18.2.0",
+    "typescript": "4.8.4"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
