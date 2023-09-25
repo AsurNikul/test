@@ -1,2 +1,1 @@
-export default BASE_URL =
-  'https://fir-dynamiclinks-e43dd.web.app/practical-api.json';
+export default BASE_URL = 'https://api.spacexdata.com/v3/launches';

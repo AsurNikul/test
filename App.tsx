@@ -7,10 +7,12 @@ import store, {pStore} from './src/redux/store';
 import {PersistGate} from 'redux-persist/integration/react';
 
 import Home from './src/screens/Home/Main';
-import {StatusBar} from 'react-native';
+import {LogBox, StatusBar} from 'react-native';
 
 const App = () => {
   const queryClient = new QueryClient();
+
+  LogBox.ignoreAllLogs();
 
   return (
     <Provider store={store}>

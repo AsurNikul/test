@@ -2,7 +2,7 @@ import React from 'react';
 import {Image, TextInput, TouchableOpacity, View} from 'react-native';
 import {verticalScale} from 'react-native-size-matters';
 
-import Fonts from '../../constants/Fonts';
+import Fonts from '../../constants/fonts';
 import colors from '../../constants/colors';
 
 import Typography from '../Typo';

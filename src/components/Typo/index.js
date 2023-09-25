@@ -4,7 +4,7 @@ import {Text} from 'react-native';
 import {moderateScale} from 'react-native-size-matters';
 import colors from '../../constants/colors';
 
-const Typography = ({txtStyle, title, color, size, font, mt, ...props}) => {
+const Typography = ({txtStyle, title, color, size, mt, ...props}) => {
   const dynamicStyles = {
     color: color || colors.black,
     fontSize: size ? moderateScale(size) : moderateScale(18),

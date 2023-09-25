@@ -16,6 +16,7 @@ export const commonSty = StyleSheet.create({
     flex: 1,
     backgroundColor: 'rgba(0, 0, 0, 0.421)',
     alignSelf: 'center',
+    width: WIDTH,
   },
   main: {flex: 1, justifyContent: 'center', alignItems: 'center'},
   mainBgWhite: {
@@ -28,6 +29,7 @@ export const commonSty = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     paddingTop: verticalScale(43),
+    backgroundColor: '#ffff',
   },
   mainCenter: {
     flex: 1,

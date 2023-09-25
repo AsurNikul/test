@@ -1,7 +1,7 @@
 import {Platform, StyleSheet} from 'react-native';
 import {moderateScale} from 'react-native-size-matters';
 
-import Fonts from '../../constants/Fonts';
+import Fonts from '../../constants/fonts';
 import colors from '../../constants/colors';
 
 import {HEIGHT} from '../../utils';

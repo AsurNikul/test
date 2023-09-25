@@ -1,14 +1,14 @@
 import {StyleSheet} from 'react-native';
 import {moderateScale, verticalScale} from 'react-native-size-matters';
 
-import Fonts from '../../constants/Fonts';
+import Fonts from '../../constants/fonts';
 import colors from '../../constants/colors';
 
 const styles = StyleSheet.create({
   btnStyle: {
     paddingVertical: verticalScale(10),
-    width: '95%',
-    backgroundColor: colors.primary,
+    width: '80%',
+    backgroundColor: colors.black,
     borderRadius: 5,
     justifyContent: 'center',
     alignSelf: 'center',
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
   },
   btnTextStyle: {
     color: colors.white,
-    fontSize: moderateScale(16),
+    fontSize: moderateScale(18),
     fontFamily: Fonts.primaryMain,
     textAlign: 'center',
   },

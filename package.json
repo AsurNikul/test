@@ -12,21 +12,25 @@
     "clean": "cd android && ./gradlew clean && cd ../",
     "sha1": "cd android && ./gradlew signingReport",
     "pod": "cd ios && pod install && cd ../",
-    "ios": "npx react-native run-ios --simulator 'iPhone 14'"
-
+    "ios": "npx react-native run-ios --simulator 'iPhone 15'"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.19.3",
+    "@react-native-community/geolocation": "^3.1.0",
     "@react-navigation/native": "^6.1.7",
     "@react-navigation/stack": "^6.3.17",
     "@reduxjs/toolkit": "^1.9.5",
     "@shopify/flash-list": "^1.6.1",
     "@tanstack/react-query": "^4.35.3",
     "axios": "^1.5.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
     "react": "18.2.0",
     "react-native": "0.72.4",
     "react-native-gesture-handler": "^2.12.1",
+    "react-native-maps": "^1.7.1",
     "react-native-pager-view": "^6.2.1",
+    "react-native-raw-bottom-sheet": "^2.2.0",
     "react-native-screens": "^3.25.0",
     "react-native-size-matters": "^0.4.0",
     "react-native-tab-view": "^3.5.2",
