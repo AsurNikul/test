@@ -14,6 +14,8 @@ const App = () => {
 
   LogBox.ignoreAllLogs();
 
+  console.log('hello wrolf this is form test branch')
+
   return (
     <Provider store={store}>
       <PersistGate persistor={pStore}>
