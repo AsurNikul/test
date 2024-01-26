@@ -7,6 +7,7 @@ import {
 
 const AuthStack = () => {
   const Stack = createStackNavigator();
+  console.log('log added in navigator')
   return (
     <>
       <StatusBar
